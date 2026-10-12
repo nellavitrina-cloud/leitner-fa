@@ -11,3 +11,5 @@ Reproduce core checks with `node --test core.test.js`.
 For optional browser checks, install Playwright in a separate test environment, make it resolvable by Node, have Microsoft Edge installed, then run `node browser-test.cjs`. Port 8080 must be free. The script starts/stops its own server, uses isolated browser profiles, and writes a test backup and screenshot to the OS temporary directory. Playwright is not a runtime dependency of the app.
 
 Not verified: live Vercel deployment, installation on a physical phone, Safari/Firefox behavior, native speech output or OS install prompt. The online repository was not changed. The original 850-word dataset was unavailable; the delivered app contains the one original card.
+
+Vazir update: regular and bold fonts loaded successfully in Edge, including after offline reload. Browser integration checks passed again.

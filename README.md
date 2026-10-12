@@ -41,3 +41,5 @@ node server.js
 node --test core.test.js
 ```
 نتایج و محدودیت‌های آزمون در TEST-RESULTS.md آمده است.
+
+فونت وزیر نسخهٔ ۳۰٫۱٫۰ در وزن‌های معمولی و ضخیم به‌صورت محلی اضافه شده و در حافظهٔ آفلاین ذخیره می‌شود. مجوز فونت در fonts/OFL.txt است. منبع: https://github.com/rastikerdar/vazir-font/tree/v30.1.0
