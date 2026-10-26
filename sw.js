@@ -1,5 +1,5 @@
 'use strict';
-const CACHE_NAME = 'vazhe-vazhe-v3';
+const CACHE_NAME = 'vazhe-vazhe-v4';
 const ASSETS = ['./index.html','./leitner-fa.html','./manifest.json','./cards.js','./core.js','./app.js','./icon-192.png','./icon-512.png','./fonts/Vazir-Regular.woff2','./fonts/Vazir-Bold.woff2'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(ASSETS))));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('vazhe-vazhe-') && key !== CACHE_NAME).map(key => caches.delete(key)))).then(() => self.clients.claim())));
