@@ -4,8 +4,8 @@ description: "Extensive operational manual and technical analysis of leitner box
 lang: en
 translationKey: article-2026-11-21
 category: guides
-published: 2026-11-21T13:24:21.316Z
-updated: 2026-11-21T13:24:21.316Z
+published: 2026-11-21T15:40:19.030Z
+updated: 2026-11-21T15:40:19.030Z
 draft: false
 ---
 
