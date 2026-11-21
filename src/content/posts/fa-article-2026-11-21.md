@@ -4,8 +4,8 @@ description: "بررسی تخصصی و راهنمای جامع درباره یا
 lang: fa
 translationKey: article-2026-11-21
 category: guides
-published: 2026-11-21T13:24:19.774Z
-updated: 2026-11-21T13:24:19.774Z
+published: 2026-11-21T15:40:17.418Z
+updated: 2026-11-21T15:40:17.418Z
 draft: false
 ---
 
